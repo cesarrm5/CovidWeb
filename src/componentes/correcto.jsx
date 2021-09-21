@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
-import Correctocss from './correctocss'
+import useStyles from './correctocss'
 
 function Correcto() {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const handleOpen = () => {
     setOpen(true);
   };
@@ -36,7 +36,7 @@ function Correcto() {
         <Fade in={open}>
           <div className={classes.paper}>
             <h2 id="transition-modal-title">
-                Recuperacion de contraseña 
+                Recuperacion de contraseña
                 <br/>‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎‎‎      ‏‏‎‎      ‏‏‎‎      ‏‏‎
                 Exitosa
             </h2>
