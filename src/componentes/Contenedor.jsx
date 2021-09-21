@@ -46,7 +46,7 @@ const Contenedor = () => {
                 </div>
                
                <div className={classes.espacio}>
-               contenido de la aplicacion 
+               contenido de la aplicacion covid
 
                
 
