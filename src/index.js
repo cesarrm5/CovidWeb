@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {ThemeProvider, createTheme} from '@material-ui/core/styles';
 
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 
 const theme = createTheme({
@@ -21,11 +19,10 @@ const theme = createTheme({
 })
 
 
+
 ReactDOM.render(
-    <React.StrictMode>
+  <React.StrictMode>
     <App />
-  ,document.getElementById('root')
+  </React.StrictMode>,
+  document.getElementById('root')
 );
-
-
-reportWebVitals();
