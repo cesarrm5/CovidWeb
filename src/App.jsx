@@ -1,20 +1,38 @@
-import React from 'react'
-import Recuperar from './componentes/recuperar.jsx'
-import Moda from './componentes/modal.jsx'
-import Correcto from './componentes/correcto'
-const App = () => {
+
+import {ThemeProvider} from'@material-ui/core/styles'
+import Contenedor from './componentes/Contenedor'
+import theme from './temaConfig'
+
+
+
+function App() {
   return (
-    <div>
-      {/* <Recuperar></Recuperar>
-      <Moda></Moda> 
-      <Correcto></Correcto>
-      */}
-      <Recuperar></Recuperar>
-      <Moda></Moda> 
-      <Correcto></Correcto>
-    </div>
-  )
+    <ThemeProvider theme={theme}>
+     
+    
+      
+      <Contenedor />
+     
+      
+
+
+      
+
+
+      
+      
+
+
+     
+
+     
+    
+       
+
+      
+     
+    </ThemeProvider>
+  );
 }
 
-export default App
-
+export default App;

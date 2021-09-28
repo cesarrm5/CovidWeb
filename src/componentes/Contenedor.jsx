@@ -35,26 +35,15 @@ const Contenedor = () => {
              
              
             <NavBar />
+
+            <div className={classes.toolbar}>
+                <hr style={{backgroundColor: '#8FD14F',  width: "2002px", height: 65}} />
+            </div> 
             
             <Cajon />
             
 
-            <div className={classes.content}>
             
-                <div className={classes.toolbar}>
-                <hr style={{backgroundColor: '#8FD14F',  width: "1102px", height: 65}} />
-                </div>
-               
-               <div className={classes.espacio}>
-               contenido de la aplicacion covid
-
-               
-
-
-               </div>
-                
-                
-            </div>
             
         </div>
     )
