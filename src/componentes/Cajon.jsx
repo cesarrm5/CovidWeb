@@ -35,27 +35,12 @@ const Cajon = () => {
         <Drawer 
           className={classes.drawer}
           variant="permanent"
-          
-          
             classes={{
                 paper: classes.drawerPaper
             }}
-            
-
-           
-
-
-            
         >
             <div ></div>
-            
-
             <Listas />
-           
-
-
-
-
         </Drawer>
 
       
