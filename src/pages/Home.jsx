@@ -8,7 +8,8 @@ const Home = () => {
     return (
         <div>
             <ThemeProvider theme={theme}>
-                <Contenedor/>
+
+            <Contenedor/> 
             </ThemeProvider>
         </div>
     )

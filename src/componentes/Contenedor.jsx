@@ -14,63 +14,30 @@ const estilos = makeStyles (theme => ({
 
     toolbar: theme.mixins.toolbar,
     content: {
-        flexGrow: "0.99",
+        flexGrow: 1,
         backgroundColor: theme.palette.background,
         
       },
-      espacio: {
-
-        
-        marginLeft: "1%"
-      }
 
 }))
 
 const Contenedor = () => {
     const classes = estilos ()
     return (
-                    
         <div className={classes.root}>
-            
+           
             <NavBar />
-            <div className={classes.toolbar}>
-                <hr style={{backgroundColor: '#8FD14F',  width: "2002px", height: 65}} />
-            </div> 
             <Cajon />
-            <div>
-              <hr style={{
-                backgroundColor: '#8FD14F',
-                height: 8
-
-            }}/>
-
-
-              </div>
-
             <div className={classes.content}>
+            <hr size="65" width="200%" align="center" color='#8FD14F'/>
                 <div className={classes.toolbar}></div>
-                
-               <div id='grafica'>
-               <grafica />
-                         
-
-
-               </div>
-
-
-               <div id='grafica2'>
-               <grafica2 />
-                         
-
-
-               </div>
-               
-
-                
-
-
+                <div id='grafica'>
+                    <grafica />
+                </div>
+                <div id='grafica2'>
+                    <grafica2 />
+                </div>
             </div>
-            
         </div>
     )
 }

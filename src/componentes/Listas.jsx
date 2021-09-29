@@ -13,7 +13,7 @@ import InfoSharpIcon from '@material-ui/icons/InfoSharp';
 import ReorderSharpIcon from '@material-ui/icons/ReorderSharp';
 import PersonSharpIcon from '@material-ui/icons/PersonSharp';
 import DescriptionSharpIcon from '@material-ui/icons/DescriptionSharp';
-import logo from './nodejs.png';
+import logo from './LogoISC.png';
 
 
 const estilos = makeStyles (theme => ({

@@ -5,7 +5,7 @@ import Container from '@material-ui/core/Container'
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import login_img from '../login_img.png'
-import logo_img from '../logo.png'
+import logo_img from '../LogoISC.png'
 
 
 
