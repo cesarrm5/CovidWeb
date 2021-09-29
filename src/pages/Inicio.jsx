@@ -3,7 +3,7 @@ import {useStyle, Form_datUser, Form_institucion, } from './Login.js';
 import Grid from '@material-ui/core/Grid'
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
-
+import {Link} from 'react-router-dom'
 
 export const Inicio = () => {
     const classes = useStyle();
@@ -47,9 +47,10 @@ export const Inicio = () => {
                         />
                         {/* <TextField id="filled-basic" className={classes.textf} label="Password" type="password" variant="filled" /> */}
                         <Button className={classes.btn } variant="outlined" margin="center">Enviar</Button>
-                    </form>
-                    <Button className={classes.recuperar_pass} color="primary">¿Olvidaste tu contraseña?</Button>
-
+                    </form>     
+                    <Link to='/recuperar' style={{ textDecoration: 'none' }} >
+                      <Button className={classes.recuperar_pass} color="primary">¿Olvidaste tu contraseña?</Button>
+                    </Link>
             </Container>
         </Grid>
     </main>
